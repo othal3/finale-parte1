@@ -305,3 +305,7 @@ footer span{
 .see{
     color: rgb(87, 143, 79);
 }
+
+img.people{
+    border-radius: 50%;
+}
