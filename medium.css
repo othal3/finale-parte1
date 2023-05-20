@@ -92,6 +92,16 @@ footer span{
     font-size: 18px;
 }
 
+@media screen and (max-width: 850px){
+    section#right{
+        display: none;
+    }
+
+    section#left{
+        margin: auto;
+    }
+}
+
 #mediumtwitter{
     display: flex;
     align-items: center;
@@ -300,8 +310,4 @@ footer span{
 
 .see{
     color: rgb(87, 143, 79);
-}
-
-img.people{
-    border-radius: 50%;
 }
